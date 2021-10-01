@@ -1,0 +1,52 @@
+#map-wrapper {
+    width: 640px;
+    height: 640px;
+    background-color: #d1d1d1;
+    position: relative;
+    margin: 0 auto;
+}
+
+#hud-wrapper {
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.grid-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.map-container {
+    z-index: 2;
+}
+
+.objects-container {
+    z-index: 3;
+}
+
+.character-container {
+    z-index: 10;
+}
+
+.map-tile {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.character {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.grid-object {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,14 @@
+.map-tile.tile-grass {
+    background-image: url(../images/object-sprites.png);
+    background-position: 0px -128px;
+}
+
+.map-tile.tile-dirt {
+    background-image: url(../images/object-sprites.png);
+    background-position: -32px -16px;
+}
+
+.map-tile.tile-water {
+    background-image: url(../images/object-sprites.png);
+    background-position: -80px -16px;
+}

@@ -1,0 +1,39 @@
+.character.sex-male.facing-up {
+    background-image: url(../images/character-sprites.png);
+    background-position: -64px -48px;
+}
+
+.character.sex-male.facing-right {
+    background-image: url(../images/character-sprites.png);
+    background-position: -64px -32px;
+}
+
+.character.sex-male.facing-down {
+    background-image: url(../images/character-sprites.png);
+    background-position: -64px 0px;
+}
+
+.character.sex-male.facing-left {
+    background-image: url(../images/character-sprites.png);
+    background-position: -64px -16px;
+}
+
+.character.sex-female.facing-up {
+    background-image: url(../images/character-sprites.png);
+    background-position: -112px -48px;
+}
+
+.character.sex-female.facing-right {
+    background-image: url(../images/character-sprites.png);
+    background-position: -112px -32px;
+}
+
+.character.sex-female.facing-down {
+    background-image: url(../images/character-sprites.png);
+    background-position: -112px 0px;
+}
+
+.character.sex-female.facing-left {
+    background-image: url(../images/character-sprites.png);
+    background-position: -112px -16px;
+}

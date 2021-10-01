@@ -1,0 +1,71 @@
+.grid-object[data-code="tree1"] {
+    background-image: url(../images/object-sprites.png);
+    background-position: -96px -64px;
+}
+
+.grid-object[data-code="tree2"] {
+    background-image: url(../images/object-sprites.png);
+    background-position: -96px -48px;
+}
+
+.grid-object[data-code="closed-chest"] {
+    background-image: url(../images/object-sprites.png);
+    background-position: -64px -64px;
+}
+
+.grid-object[data-code="opened-chest"] {
+    background-image: url(../images/object-sprites.png);
+    background-position: -48px -64px;
+}
+
+.grid-object[data-code="jar"] {
+    background-image: url(../images/object-sprites.png);
+    background-position: -48px -48px;
+}
+
+.grid-object[data-code="broken-jar"] {
+    background-image: url(../images/object-sprites.png);
+    background-position: -64px -48px;
+}
+
+.grid-object[data-code="map-arrow-up"] {
+    background-size: 32px;
+    background-image: url(../images/arrow-sprites.png);
+    background-position: 0px 0px;
+    animation: animatedArrow 1s infinite;
+}
+
+.grid-object[data-code="map-arrow-left"] {
+    background-size: 32px;
+    background-image: url(../images/arrow-sprites.png);
+    background-position: 0px -16px;
+    animation: animatedArrow 1s infinite;
+}
+
+.grid-object[data-code="map-arrow-down"] {
+    background-size: 32px;
+    background-image: url(../images/arrow-sprites.png);
+    background-position: 0px -32px;
+    animation: animatedArrow 1s infinite;
+}
+
+.grid-object[data-code="map-arrow-right"] {
+    background-size: 32px;
+    background-image: url(../images/arrow-sprites.png);
+    background-position: 0px -48px;
+    animation: animatedArrow 1s infinite;
+}
+
+@keyframes animatedArrow {
+    0% {
+        opacity: 0.35;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.35;
+    }
+}
